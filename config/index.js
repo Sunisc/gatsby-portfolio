@@ -1,14 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+  author: "@sunisc",
+  siteTitle: "Surya Poddutoori",
+  siteShortTitle: "s.p", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Who is Surya?",
+  siteUrl: "http://suryacodes.com/",
   siteLanguage: "en_US",
-  siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  siteIcon: "content/favicon.png", // Profile picure
+  seoTitleSuffix: "Surya's Profile", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -41,51 +40,45 @@ module.exports = {
     primary: "Roboto, Arial, sans-serif",
   },
 
-  //-- ARTICLES SECTION SETTINGS -----
-  // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
-  // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
-  // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
+    "",
 
-  shownArticles: 3,
+  shownArticles: 0,
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/suryaunc/",
     },
+    // {
+    //   name: "",
+    //   url: "",
+    // },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
-    },
-    {
-      name: "Github",
+      name: "GitHub",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/sunisc/",
     },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
-    },
+    {name: "Resume",
+  url:"https://drive.google.com/file/d/1VIjV7zLBRpCfGPkDEAiqNPamLCu2kiR5/view?usp=sharing"}
+    // {
+    //   name: "",
+    //   url: "",
+    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
   navLinks: {
     menu: [
       {
-        name: "Articles",
-        url: "/#articles",
-      },
-      {
         name: "About Me",
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
     ],
@@ -96,12 +89,12 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/suryaunc/",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      name: "GitHub",
+      url: "https://github.com/sunisc/",
     },
   ],
 }

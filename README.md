@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio from https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal
+My portfolio with tweaks. Inspired by https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal
